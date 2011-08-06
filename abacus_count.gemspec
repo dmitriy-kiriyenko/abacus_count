@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["dmitriy.kiriyenko@gmail.com"]
   s.homepage    = "https://github.com/dmitriy-kiriyenko/abacus_count"
   s.summary     = %q{ActiveRecord::Base#count and other calculations as subqueries}
-  s.description = %q{ActiveRecord::Base#count and other calculations as subqueries. Instead of nice Rails grouping calculation feature, \
+  s.description = %q{ActiveRecord::Base#count and other calculations as subqueries. Instead of nice Rails grouping calculation feature,
                      uses subqueries to return the result with any complex query}
 
   s.rubyforge_project = "abacus_count"

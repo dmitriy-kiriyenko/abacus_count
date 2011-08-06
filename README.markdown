@@ -6,7 +6,7 @@
 
 There is a use case when ActiveRecord calculations fail on a valid relation. It's when you use alias values you select, and then use aliases in where or having conditions. That happens because ActiveRecord does calculations by throwing away select values. And when really **do** need to use custom aliases outside select, you definitely **do not** want this kind of optimization. More on that bug in this [pull request](https://github.com/rails/rails/pull/1969).
 
-While it's not fixed, we can use an ultimate way of preventing any calculation issues, suggested by abacus_count. I mean using subqueries.
+The issue is fixed, so Rails master and 3.1.1 will be free of it. However, if you are using earlier version of Rails 3å, we can use an ultimate way of preventing any calculation issues, suggested by abacus_count. I mean using subqueries.
 
 ## Installation ##
 
