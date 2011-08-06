@@ -37,7 +37,7 @@ You now have `abacus` scope on any relation. This scope extends a relation with 
 In `abacus` calculations never return a hash, always a total result. Sometimes, this is just what you want, however.
 
 ## Support and contribution ##
-Tested with ruby 1.8.7 and ruby 1.9.2. Tested with ActiveRecord 3.0.stable only! Gonna test with ActiveRecord 3.1.stable and edge soon. Tested with sqlite3 and mysql. Currently test suite runs only under sqlite3, gonna implement automated acceptance testing with mysql and maybe postres.
+Tested with ruby 1.8.7 and ruby 1.9.2. Tested with ActiveRecord 3.0.9 and 3.1.0.rc5. Great thanks to a wonderful Thoughtbot's [Appraisal](https://github.com/thoughtbot/appraisal) gem. Tested with sqlite3 and mysql. Currently test suite runs only under sqlite3, gonna implement automated acceptance testing with mysql and maybe postgres.
 
 ## Contribution ##
 
