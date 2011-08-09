@@ -1,5 +1,7 @@
 # Abacus Count #
 
+[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/abacus_count.png)](http://travis-ci.org/dmitriy-kiriyenko/abacus_count)
+
 ## Synopsis ##
 
 `ActiveRecord::Base#count` and other calculations as subqueries. Instead of nice Rails grouping calculation feature, uses subqueries to return the result with any complex query.
