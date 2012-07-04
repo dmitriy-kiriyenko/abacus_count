@@ -1,6 +1,6 @@
 # Abacus Count #
 
-[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/abacus_count.png)](http://travis-ci.org/dmitriy-kiriyenko/abacus_count)
+[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/abacus_count.png)](http://travis-ci.org/dmitriy-kiriyenko/abacus_count) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/dmitriy-kiriyenko/abacus_count)
 
 ## Synopsis ##
 
