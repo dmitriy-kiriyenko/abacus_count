@@ -1,7 +1,11 @@
-appraise "activerecord309" do
-  gem "activerecord", "~> 3.0.9"
+appraise "activerecord30" do
+  gem "activerecord", "~> 3.0.15"
 end
 
-appraise "activerecord310" do
-  gem "activerecord", "~> 3.1.0.rc5"
+appraise "activerecord31" do
+  gem "activerecord", "~> 3.1.6"
+end
+
+appraise "activerecord32" do
+  gem "activerecord", "~> 3.2.6"
 end
